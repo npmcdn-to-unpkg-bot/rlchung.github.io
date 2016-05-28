@@ -1,0 +1,68 @@
+/*typography*/
+@font-face {
+	font-family: "myriad-set-pro_thin";
+	src: url("../fonts/myriad-set-pro_thin.ttf");
+}
+
+body {
+	background: #19191A;
+	color: #f9f9f9;
+	font-family: "myriad-set-pro_thin", "Sans-Serif";
+	width: 100%;
+	height: 100%;
+	letter-spacing: 0.5px;
+	min-width: 700px;
+}
+
+html {
+	height: 100%;
+	position: relative;
+}
+
+.page-wrap {
+	padding-top:13%;
+	min-height: 95%;
+}
+
+#about-me {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 600px;
+}
+
+#home {
+	margin: 0 auto;
+	width: 100%;
+	text-align:center;
+	position: relative;
+	padding-top: 3%;
+}
+
+footer {
+	width: 100%;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+h4 {
+	float: right;
+	padding-right: 1%;
+}
+
+p {
+	font-size: 1.2em;
+	color: #b3b3b3;
+}
+
+a.animsition-link{
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+	color: #495b7a;
+}
+
+a.animsition-link:hover {
+	color: #89ABE3;
+}

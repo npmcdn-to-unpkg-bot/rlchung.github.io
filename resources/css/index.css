@@ -1,0 +1,95 @@
+/*typography*/
+@font-face {
+	font-family: "myriad-set-pro_thin";
+	src: url("../fonts/myriad-set-pro_thin.ttf");
+}
+
+body {
+	background: #19191A;
+	color: #f9f9f9;
+	font-family: "myriad-set-pro_thin", "Sans-Serif";
+	letter-spacing: 0.5px;
+	height: 100%;
+	min-width: 700px;
+}
+
+html {
+	height: 100%;
+	position: relative;
+}
+
+div {
+	display: block;
+}
+
+.page-wrap {
+	padding-top:20%;
+	min-height: 95%;
+}
+
+.home-text {
+	text-align: center;
+	margin: auto;
+	max-width: 600px;
+}
+
+footer {
+	width: 100%;
+}
+
+h4 {
+	float: right;
+	padding-right: 1%;
+}
+
+h3 {
+	font-size: 1.8em;
+	line-height: 130%;
+}
+
+.home-icons {
+	text-align: center;
+	padding-top: 0.5em;
+}
+
+.home-icons a {
+	text-decoration: none;
+	padding: 0.2em;
+}
+
+/*Modifies text-links and transitions*/
+a.animsition-link{
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+	color: #495b7a;
+}
+
+a.animsition-link:hover {
+	color: #89ABE3;
+}
+
+/*modifies for working clikable svg*/
+a.svg {
+  	position: relative;
+  	display: inline-block;
+  	padding: 0 0 0 0;
+}
+
+a.svg:after {
+  	content: "";
+  	position: absolute;
+  	top: 0; 
+  	right: 0; 
+  	bottom: 0; 
+  	left: 0;
+}
+
+/*For icon hover transitions*/
+a path{
+	transition: fill 0.3s ease-in-out;
+}
+
+a:hover path{
+	opacity: 1;
+	fill: #C8C8C8;
+}
