@@ -10,7 +10,6 @@ body {
 	font-family: "myriad-set-pro_thin", "Sans-Serif";
 	letter-spacing: 0.5px;
 	height: 100%;
-	min-width: 700px;
 }
 
 html {
@@ -30,7 +29,7 @@ div {
 .home-text {
 	text-align: center;
 	margin: auto;
-	max-width: 600px;
+	max-width: 45em;
 }
 
 footer {
