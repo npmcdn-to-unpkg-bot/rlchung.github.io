@@ -19,14 +19,14 @@ html {
 }
 
 .page-wrap {
-	padding-top: 10%;
+	padding-top: 8%;
 	min-height: 93%;
 }
 
 #imgSlider {
 	margin: 0 auto;
+	padding-bottom: 2em;
 	width: 100%;
-	max-width: 50%;
 }
 
 #home {
