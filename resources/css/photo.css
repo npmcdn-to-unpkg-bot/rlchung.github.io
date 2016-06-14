@@ -26,7 +26,11 @@ html {
 #imgSlider {
 	margin: 0 auto;
 	padding-bottom: 2em;
-	width: 100%;
+	width:100%;
+}
+
+img {
+	max-width:100%;
 }
 
 #home {
